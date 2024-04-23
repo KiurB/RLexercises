@@ -367,7 +367,7 @@ int main()
 	for(int i=0;i<maxcars;i++){
 	  	for(int j=0;j<maxcars;j++)
 	  	{
-	  		std::cout<<" "<< std::setw(10) << policy_table[i][j];
+	  		std::cout<<" "<< std::setw(2) << policy_table[i][j];
 		}
 		std::cout<<std::endl; 
 	}
